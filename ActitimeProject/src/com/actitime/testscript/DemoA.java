@@ -16,6 +16,7 @@ public static void main(String[] args) {
 	driver.findElement(By.name("pwd")).sendKeys("manager");
 	driver.findElement(By.xpath("//div[text()='Login ']")).click();
 	driver.findElement(By.linkText("TASKS")).click();
-	System.out.println("Task page is displayed");
+	//System.out.println("Task page is displayed");
+	System.out.println("Task page is not displayed");
 }
 }
